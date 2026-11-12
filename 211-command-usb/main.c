@@ -9,7 +9,7 @@
 #include "led.h"
 #include "log.h"
 #include "device.h"
-
+#include "memory.h"
 
 const uint BUTTON_PIN = 15;
 const uint DEBOUNCE_MS = 20;
@@ -39,9 +39,14 @@ bool get_button_debounce(uint pin)
     return state && gpio_get(pin);
 }
 
-void cmd_ping(void)
+void cmd_mem_info (void)
 {
     printf("pong\n");
+}
+
+void cmd_ping(void)
+{
+    mem_info();
 }
 
 void cmd_enable(void)
@@ -77,6 +82,7 @@ const struct command_t commands[] = {
     { "info", cmd_info },
     { "version", cmd_version },
     { "ping", cmd_ping },
+    { "mem_info", cmd_mem_info },
 };
 
 
