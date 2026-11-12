@@ -3,27 +3,27 @@
 устройство: 2e8a:000a
 серийный номер: 500315191881621C
 порт: COM5
-начало: 2026-11-12T20:43:04
+начало: 2026-11-12T20:57:22
    0.000 --> enable
-   0.129 <-- enable
-   0.130 <-- dbg read_line:70 got enable
-   0.131 <-- inf handle_command:33 led on
-   2.191 --> disable
-   2.350 <-- disable
-   2.351 <-- dbg read_line:70 got disable
-   2.352 <-- inf handle_command:38 led off
-   4.386 --> info
-   4.471 <-- info
-   4.472 <-- dbg read_line:70 got info
-   4.474 <-- serial: 500315191881621C
-   4.480 <-- project: 134-led-module
-   4.483 <-- repo: https://github.com/<������ ����������>/es-student
-   4.484 <-- board: pico
-   4.485 <-- serial: 500315191881621C
-   4.491 <-- chip: manufacturer 0x927, part 0x0002, revision 2
-   4.492 <-- pico-sdk: 2.3.0
-   6.559 --> nosuchcommand
-   6.832 <-- nosuchcommand
-   6.833 <-- dbg read_line:70 got nosuchcommand
-   6.835 <-- err handle_command:50 unknown command: nosuchcommand
+   0.135 <-- enable
+   0.136 <-- dbg read_line:70 got enable
+   0.136 <-- inf handle_command:33 led on
+   2.170 --> disable
+   2.316 <-- disable
+   2.316 <-- dbg read_line:70 got disable
+   2.318 <-- inf handle_command:38 led off
+   4.348 --> info
+   4.436 <-- info
+   4.437 <-- dbg read_line:70 got info
+   4.441 <-- serial: 500315191881621C
+   4.442 <-- project: 211-command-usb
+   4.460 <-- repo: https://github.com/<������ ����������>/es-student
+   4.460 <-- board: pico
+   4.461 <-- serial: 500315191881621C
+   4.464 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   4.464 <-- pico-sdk: 2.3.0
+   6.498 --> nosuchcommand
+   6.778 <-- nosuchcommand
+   6.778 <-- dbg read_line:70 got nosuchcommand
+   6.780 <-- err handle_command:50 unknown command: nosuchcommand
 итог: отправлено команд 4, принято строк 18
