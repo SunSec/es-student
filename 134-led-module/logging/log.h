@@ -1,12 +1,7 @@
-
 // защита от повторного включения
 #pragma once
 
 #include <stdio.h>
-
-// имя устройства, версия прошивки
-#define DEVICE_NAME "es-led-module"
-#define FIRMWARE_VERSION "1.0.0"
 
 // три уровня 
 #define LOG_LEVEL_ERR 1
